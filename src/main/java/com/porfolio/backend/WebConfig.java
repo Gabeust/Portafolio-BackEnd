@@ -15,7 +15,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins("https://gabrielromeroapp.web.app")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
-                .allowCredentials(true)
+                .allowCredentials(false)
                 .maxAge(3600);
     }
 }
