@@ -1,5 +1,6 @@
 package com.porfolio.backend.Service;
 
+import com.porfolio.backend.Entity.Certificaciones;
 import com.porfolio.backend.Entity.Competencias;
 import com.porfolio.backend.Repository.CompetenciasRepo;
 import java.util.List;
