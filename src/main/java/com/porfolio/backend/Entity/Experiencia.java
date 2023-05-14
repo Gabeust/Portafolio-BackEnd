@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 public class Experiencia {
@@ -16,6 +17,7 @@ public class Experiencia {
     @NotNull
     private String empresa;
     @NotNull
+    @Size(min = 1, max =4500)
     private String descripcion;
     @NotNull
     private int ingreso;
