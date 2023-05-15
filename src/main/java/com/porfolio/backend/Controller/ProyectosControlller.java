@@ -36,15 +36,15 @@ public class ProyectosControlller {
         if(!proyectosS.existsById(id)){
             return new ResponseEntity(new Mensaje("no existe el id"), HttpStatus.NOT_FOUND);
         }       
-        Proyectos certificaciones = proyectosS.getOne(id).get();
-        return new ResponseEntity(certificaciones, HttpStatus.OK);
+        Proyectos proyectos = proyectosS.getOne(id).get();
+        return new ResponseEntity(proyectos, HttpStatus.OK);
     }
     
       
     @PostMapping("/crear")
     public ResponseEntity<?> create(@RequestBody DtoProyectos dtoproyec) {
         if (StringUtils.isBlank(dtoproyec.getNombre()))
-            return new ResponseEntity(new Mensaje("El Nnombre es obligatorio"), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity(new Mensaje("El Nombre es obligatorio"), HttpStatus.BAD_REQUEST);
      
         if (proyectosS.existsByNombre(dtoproyec.getNombre())) 
             return new ResponseEntity(new Mensaje("nombre ya existe"), HttpStatus.BAD_REQUEST);
@@ -53,7 +53,8 @@ public class ProyectosControlller {
         Proyectos proyectos = new Proyectos(
                 dtoproyec.getNombre(),
                 dtoproyec.getDescripcion(),
-                dtoproyec.getImg());
+                dtoproyec.getImg(),
+                dtoproyec.getUrl());
         
         proyectosS.save(proyectos);
 
