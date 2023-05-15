@@ -2,14 +2,17 @@ C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Enums\RolNombre.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Entity\Certificaciones.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Controller\CertificacionesController.java
+C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Controller\ProyectosControlller.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Jwt\JwtEntryPoint.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Dto\JwtDto.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Controller\CompetenciasController.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Dto\LoginUsuario.java
+C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Entity\Proyectos.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Repository\IRolRepository.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Service\ImpPersonaService.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Jwt\JwtProvider.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Service\SExperiencia.java
+C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Dto\DtoProyectos.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Controller\AuthController.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Controller\PersonaController.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Service\CertificacionesServ.java
@@ -27,6 +30,7 @@ C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Controller\Mensaje.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Dto\DtoCompetencias.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Dto\NuevoUsuario.java
+C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Service\ProyectosServ.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Service\CompetenciasServ.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Dto\DtoPersona.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Entity\Usuario.java
@@ -35,6 +39,7 @@ C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Repository\RExperiencia.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Service\UsuarioService.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\BackendApplication.java
+C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Repository\ProyectosRepo.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Security\Repository\IUsuarioRepository.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Repository\IPersonaRepository.java
 C:\Users\Lenovo\Desktop\proyectos en github\portafolio-backend\src\main\java\com\porfolio\backend\Entity\Persona.java

@@ -1,5 +1,7 @@
 com\porfolio\backend\Security\Enums\RolNombre.class
 com\porfolio\backend\Controller\PersonaController.class
+com\porfolio\backend\Dto\DtoProyectos.class
+com\porfolio\backend\Controller\ProyectosControlller.class
 com\porfolio\backend\Controller\CertificacionesController.class
 com\porfolio\backend\Security\Controller\Mensaje.class
 com\porfolio\backend\Security\Service\UserDetailsServiceImpl.class
@@ -20,13 +22,16 @@ com\porfolio\backend\Repository\IPersonaRepository.class
 com\porfolio\backend\Entity\Certificaciones.class
 com\porfolio\backend\Security\Dto\LoginUsuario.class
 com\porfolio\backend\Service\SExperiencia.class
+com\porfolio\backend\Repository\ProyectosRepo.class
 com\porfolio\backend\Security\Service\UsuarioService.class
+com\porfolio\backend\Service\ProyectosServ.class
 com\porfolio\backend\Entity\Persona.class
 com\porfolio\backend\Security\Controller\AuthController.class
 com\porfolio\backend\Dto\DtoExperiencia.class
 com\porfolio\backend\Security\Dto\JwtDto.class
 com\porfolio\backend\Security\Repository\IRolRepository.class
 com\porfolio\backend\Security\MainSecurity.class
+com\porfolio\backend\Entity\Proyectos.class
 com\porfolio\backend\Repository\RExperiencia.class
 com\porfolio\backend\Security\Entity\Usuario.class
 com\porfolio\backend\Dto\DtoCompetencias.class
